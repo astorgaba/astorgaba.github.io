@@ -1,0 +1,14 @@
+{
+  "name": "syne",
+  "version": "0.1.0",
+  "files": [
+    "syne_engine_bg.wasm",
+    "syne_engine.js",
+    "syne_engine.d.ts"
+  ],
+  "module": "syne_engine.js",
+  "types": "syne_engine.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
