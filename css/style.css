@@ -632,6 +632,20 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   font-size: 30px;
   color: #000000; }
 
+.vidcontainer {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .item {
   border: none;
   margin-bottom: 30px;
